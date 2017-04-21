@@ -1,0 +1,118 @@
+html {
+  font-family: "roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: skyblue;
+  border-color: skyblue;
+}
+
+.btn:hover {
+  background-color: grey;
+  border-color: grey;
+}
+
+a {
+  color: skyblue;
+}
+
+a:hover {
+  color: grey;
+}
+
+
+.btn-main {
+  background-color: skyblue;
+  border-color: skyblue;
+}
+
+.btn-main:hover {
+  background-color: grey;
+  border-color: grey;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: white;
+    border-color: black;
+    border-width: medium;
+    color: black;
+    padding: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: white;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 100px;
+    z-index: 1;
+    left: 70%;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: white}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+.toggle {
+    width: 20px;
+    height: 4px;
+    background-color: black;
+    margin: 3px 0;
+}
+
+.footer-text{
+  color: grey;
+  font-size: 10px;
+}
+
+.logo {
+  padding-right: 6em;
+}
+
+img {
+  opacity: 0.5;
+}
+
+img:hover {
+    opacity: 1.0;
+}
+
+/*.img-tour {
+  opacity: 0.5;
+}
+
+.img-tour:hover {
+    opacity: 0.5;
+}*/
