@@ -1,9 +1,5 @@
 html {
-  font-family: "roboto", sans-serif;
-}
-
-a {
-  text-decoration: none;
+  font-family: roboto, sans-serif;
 }
 
 .btn {
@@ -20,12 +16,12 @@ a {
 
 a {
   color: skyblue;
+  text-decoration: none;
 }
 
 a:hover {
   color: grey;
 }
-
 
 .btn-main {
   background-color: skyblue;
@@ -47,19 +43,15 @@ a:hover {
 }
 
 img {
-  opacity: 0.8;
+  opacity: .8;
 }
 
 img:hover {
-  opacity: 1.0;
+  opacity: 1;
 }
 
 .txt-wrap {
   background-color: white;
-}
-
-.para {
-  color: lightgrey;
 }
 
 .bluetext {
@@ -113,4 +105,8 @@ table {
     overflow: visible;
   }
 
+}
+
+.whitebg {
+  background-color: white;
 }
