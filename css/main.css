@@ -51,7 +51,7 @@ img {
 }
 
 img:hover {
-    opacity: 1.0;
+  opacity: 1.0;
 }
 
 .txt-wrap {
@@ -64,4 +64,53 @@ img:hover {
 
 .bluetext {
   color: skyblue;
+}
+
+.grayscale {
+  filter: grayscale(100%);
+}
+
+.white {
+  color: white;
+}
+
+.blue {
+  color: skyblue;
+}
+
+tbody th {
+  font-weight: normal;
+  font-style: italic;
+}
+
+tfoot {
+  font-weight: bold;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #e2e2e2;
+}
+
+.year {
+  width: 7em;
+}
+
+.distance {
+  width: 6em;
+}
+
+.notes {
+  width: 16em;
+}
+
+table {
+  min-width: 50em;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .table-wrap {
+    overflow: visible;
+  }
+
 }
